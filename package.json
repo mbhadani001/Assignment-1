@@ -1,6 +1,6 @@
 {
-  "name": "assignment-1",
-  "version": "0.0.0",
+  "name": "comp229-f2022-assignment-1",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
@@ -17,5 +17,18 @@
     "jquery-ui": "^1.13.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "assignment for comp 229",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbhadani001/Assignment-1.git"
+  },
+  "author": "Manav Bhadani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbhadani001/Assignment-1/issues"
+  },
+  "homepage": "https://github.com/mbhadani001/Assignment-1#readme"
 }
