@@ -8,23 +8,23 @@ router.get('/', function(req, res, next) {
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
-  res.render('../views/partials/webpages/home.ejs', { title: 'Home page'});
+  res.render('../views/Partials/webpages/home.ejs', { title: 'Home page'});
 });
 
 /* GET about page. */
 router.get('/about', function(req, res, next) {
-  res.render('../views/partials/webpages/about.ejs', { title: 'About me'});
+  res.render('../views/Partials/webpages/about.ejs', { title: 'About me'});
 });
 /* GET Project page. */
 router.get('/project', function(req, res, next) {
-  res.render('../views/partials/webpages/project.ejs', { title: 'My projects'});
+  res.render('../views/Partials/webpages/project.ejs', { title: 'My projects'});
 });
 /* GET Service page. */
 router.get('/service', function(req, res, next) {
-  res.render('../views/partials/webpages/service.ejs', { title: 'My services'});
+  res.render('../views/Partials/webpages/service.ejs', { title: 'My services'});
 });
 /* GET Contact page. */
 router.get('/contact', function(req, res, next) {
-  res.render('../views/partials/webpages/contact.ejs', { title: 'Contact information'});
+  res.render('../views/Partials/webpages/contact.ejs', { title: 'Contact information'});
 });
 module.exports = router;
